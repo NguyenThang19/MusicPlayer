@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: gray;
+}
+
+/* Class set status */
+.d-block{
+    display: block;
+}
+
+.d-none{
+    display: none;
+}
+
+.toggle-status-repeat{
+    color: red !important;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 40%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.container .dashbroad {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.container .dashbroad h4 {
+    color: pink;
+    margin-bottom: 8px;
+}
+
+.container .dashbroad .title-current-song {
+    margin-bottom: 8px;
+
+}
+
+.container .dashbroad .thumb-song {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.container .dashbroad .thumb-song img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.container .controller {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .controller .btn i {
+    color: rgb(83, 80, 80);
+    font-size: 20px;
+}
+
+.container .controller .btn-toggle-play {
+    background-color: pink;
+    border-radius: 50%;
+}
+
+.container .controller .btn-toggle-play i {
+    color: #ffffff;
+    padding: 16px;
+}
+
+
+.container .progress {
+    width: 80%;
+    margin: 20px auto 0;
+}
+
+.container .play-list{
+    margin-top: 12px;
+    padding: 0 20px;
+}
+
+.container .play-list h3{
+    color: red;
+    text-align: center;
+}
+.container .play-list .track-list{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.track-list .song{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 12px;
+}
+
+.track-list .song .thumb-song{
+    border-radius: 50%;
+    max-width: 20%;
+}
+
+.track-list .song .desc-song{
+    width: 60%;
+}
+
+.track-list .song .desc-song .name-song{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.track-list .song .desc-song .singger{
+    font-size: 18px;
+    color: gray;
+
+}
+.track-list .song .thumb-song img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.track-list .more {
+    max-width: 20%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.track-list .more span{
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 4px;
+}
